@@ -2,6 +2,7 @@
 layout: default
 title: Configuration
 nav_exclude: true
+permalink: theme/configurations
 ---
 
 # Configuration

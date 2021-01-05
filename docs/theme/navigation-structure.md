@@ -2,6 +2,7 @@
 layout: default
 title: Navigation Structure
 nav_exclude: true
+permalink: theme/navigation-structure
 ---
 
 # Navigation Structure

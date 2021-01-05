@@ -2,6 +2,7 @@
 layout: default
 title: Customization
 nav_exclude: true
+permalink: theme/customization
 ---
 
 # Customization

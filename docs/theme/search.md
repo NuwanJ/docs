@@ -2,6 +2,7 @@
 layout: default
 title: Search
 nav_exclude: true
+permalink: theme/search
 ---
 
 # Search
