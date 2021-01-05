@@ -1,5 +1,6 @@
 # docs
-This repository will be handle the documentation
+This repository will be handle the documentation.
+Based on: https://idratherbewriting.com/documentation-theme-jekyll/
 
 Visit [https://pera-swarm.github.io/docs/](https://pera-swarm.github.io/docs/)
 
