@@ -1,18 +1,17 @@
 ---
 layout: default
-parent: Communication
-title: MQTT Communication
+parent: MQTT
+grand_parent: Communication
+title: Robot
 nav_order: 1
-permalink: communication/mqtt
+permalink: communication/mqtt/robot
 ---
 
-# MQTT Communication
+## Robot Protocols
+{: .no_toc }
 
-Please refer [this](https://docs.google.com/document/d/e/2PACX-1vTm_0MmPGw8-B8v63e-Jc8sfDNO9txeNVYmvAswR7ti8Glnw_4Wqmm6OpOiHOp8b9D15OUumNXIjC5y/pub) for latest communication protocols.
-
-
-channel: You can create any communication channel by defining this variable. Default is 'v1' channel will be appended to every MQTT topic. (ex: _v1/robot/msg/broadcast_)
-
+- TOC
+{:toc}
 
 ### /robot/msg/{robotID}
 
@@ -97,20 +96,5 @@ x,y,z,heading : number in #.## format
 </td></tr>
 <tr><td>Description</td><td>
 This will inform other systems to remove the robot. Invoked by the prune scheduler on the server.
-</td></tr>
-</table>
-
-
-### Title
-
-<table>
-<tr><td>Source</td><td> </td></tr>
-<tr><td>Destination</td><td> </td></tr>
-<tr><td>Data Type</td><td> </td></tr>
-<tr><td>Sample Message</td><td>
-
-</td></tr>
-<tr><td>Description</td><td>
-
 </td></tr>
 </table>

@@ -1,9 +1,10 @@
 ---
 layout: default
-parent: Communication
-title: Obstacles API
+parent: JSON
+grand_parent: Communication
+title: Obstacles
 nav_order: 2
-permalink: communication/obstacles
+permalink: communication/json/obstacles
 ---
 
 # Obstacles API
