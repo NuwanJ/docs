@@ -116,3 +116,17 @@
 .btn-green {
   @include btn-color($white, $green-100);
 }
+
+.btn-round{
+    background-color: #0B5FFF;
+    color: white;
+    border: none; /*1px solid white*/
+    padding: 10px 10px!important;
+    width: 36px;
+    height:36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 10px;
+}

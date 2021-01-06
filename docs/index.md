@@ -6,7 +6,7 @@ description: ""
 permalink: /
 ---
 
-# Welcome to Pera Swarm !
+# Welcome to Pera Swarm
 
 This site is under construction. Please come back later.
 
