@@ -205,12 +205,14 @@ layout: table_wrappers
     <script>
         var theme = localStorage.getItem('theme');
         if(theme!== null){
-            //console.log(theme);
+            /*console.log(theme);*/
             jtd.setTheme(theme);
         }else{
-            jtd.setTheme('light');
+            localStorage.setItem('theme', jtd.getTheme());
         }
     </script>
+
+
     <script>
         function toggleDarkLight() {
             if (jtd.getTheme() === 'light') {
